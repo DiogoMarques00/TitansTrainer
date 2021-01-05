@@ -38,7 +38,7 @@ namespace TitansTrainer
              
         public Powerup[] NomePowerups
         {
-            get
+            get 
             {
                 return m_NomePowerups;
             }
