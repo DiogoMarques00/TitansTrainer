@@ -36,7 +36,7 @@ namespace TitansTrainer
             }
         }
              
-        public Powerup[] NomePowerups
+        public Powerup[] NomePowerups 
         {
             get 
             {
