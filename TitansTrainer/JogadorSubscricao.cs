@@ -10,7 +10,7 @@ namespace TitansTrainer
     {
         private int m_NumeroCombatesPermitidos;
         private string m_TipoSubscricao;
-        private bool m_HabilidadeSecreta;
+        private bool m_HabilidadeSecreta; 
         public int Combater
         {
             get
