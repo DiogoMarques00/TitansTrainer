@@ -10,6 +10,7 @@ namespace TitansTrainer
     {
         private int m_Nome;
         private double m_Bonus;
+        private Powerup[] m_NomePowerups;
 
         public int Nome
         {
@@ -34,7 +35,23 @@ namespace TitansTrainer
                 m_Bonus = value;
             }
         }
-            
-
+             
+        public Powerup[] NomePowerups
+        {
+            get
+            {
+                return m_NomePowerups;
+            }
+            set
+            {
+                m_NomePowerups = value;
+            }
+        }
+        int[] Powerup = new int[5]
+        Powerup[0] = "Aumentar CP";
+        Powerup[1] = "Aumentar CP";
+        Powerup[2] = "Aumentar CP";
+         Powerup[3] = "Aumentar CP";
+         Powerup[4] = "Aumentar CP";
     }
 }
